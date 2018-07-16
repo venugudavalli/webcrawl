@@ -22,7 +22,7 @@ dependencies:
   - pip:
     - pymongo
 		
-1. open terminal and navigate to ted-scraoer root folder and execute below command
+1. open terminal and navigate to ted-scraper root folder and execute below command
 	
 	conda env create -f environment.yml
 	
