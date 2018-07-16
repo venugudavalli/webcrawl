@@ -17,19 +17,19 @@ The first step is add the MongoDB repository. To do this, you must import the Mo
 Open a terminal window.
 
 1. Issue the command 
-	sudo apt-key adv —keyserver hkp://keyserver.ubuntu.com:80 —recv EA312927.
+	- sudo apt-key adv —keyserver hkp://keyserver.ubuntu.com:80 —recv EA312927.
 			
 2. Issue the command 
-	sudo touch /etc/apt/sources.list.d/mongodb-org.list.
+	- sudo touch /etc/apt/sources.list.d/mongodb-org.list.
 			
 3. Issue the command sudo nano /etc/apt-sources.list.d/mongodb-org.list.
 	
 Copy and paste one of the following lines from below (depending upon your release) into the open file.
 		
 	For 16.04*: 
-	deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse
+	- deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse
 		
-	Hit [Ctrl]+[x] to save the file.
+	- Hit [Ctrl]+[x] to save the file.
 
 ** Note: Getting MongoDB community edition running successfully on Ubuntu 16.04 is challenging. 
 
@@ -38,8 +38,10 @@ Find the workaround after the standard installation steps below.
 *** Installing MongoDB
 
 1. Open a terminal window.
-2. Update apt with the command sudo apt-get update.
-3. Once apt has updated, install MongoDB with the command sudo apt-get install -y mongodb-org.
+2. Update apt with the command 
+	- sudo apt-get update.
+3. Once apt has updated, install MongoDB with the command 
+	- sudo apt-get install -y mongodb-org.
 4. Allow the installation to complete.
 5. Running the community edition
 
@@ -71,7 +73,7 @@ The MongoDB server is now running on Ubuntu 16.04.
 
 **Time to play**
 
-Congratulations! You now have a working instance of MongoDB, and you can start learning the ins and outs of a database used by big data and enterprise companies—a good place to start is the official MongoDB manual. If you're looking for a forum with answers to your questions, check out this MongoDB Google Group.
+You now have a working instance of MongoDB, and you can start learning the ins and outs of a database used by big data and enterprise companies—a good place to start is the official MongoDB manual. If you're looking for a forum with answers to your questions, check out this MongoDB Google Group.
 
 Also see
 - [Why some of the fastest growing databases are also the most experimental](https://www.techrepublic.com/article/why-some-of-the-fastest-growing-databases-are-also-the-most-experimental/) (TechRepublic)
