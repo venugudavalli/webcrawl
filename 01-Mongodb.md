@@ -10,28 +10,39 @@
 	echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list
 	
 1. Reload local package database.
+	
 	sudo apt-get update
 	
 1. Install the MongoDB packages
+	
 	sudo apt-get install -y mongodb-org
 	
 1. Start Mongodb 
+	
 	sudo service mongodb start
 	
 2. Stop Mongodb
+	
 	sudo service mongodb stop
 	
 3.Start using mongodb with mongo shell
+	
 	mongo --host 127.0.0.1:27017
 	
   ctrl+C to quit mongo shell
 	
 **Uninstall Mongodb in Ubuntu linux**
+
 1.	Stop MongoDB service if service is online
+	
 	sudo service mongod stop
+	
 2. Remove Packages.
+	
 	sudo apt-get purge mongodb-org*
+	
 3. Remove Data Dierctories
+
 	sudo rm -r /var/log/mongodb
 	sudo rm -r /var/lib/mongodb
 	
