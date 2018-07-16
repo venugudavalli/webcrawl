@@ -1,6 +1,6 @@
 ## Installing Local Mongodb (community addition)
 
-1. [Installation Steps](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
+1. Installation Steps [more info](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
 
 1. Import the public key used by the package management system
 
