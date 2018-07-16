@@ -25,4 +25,4 @@ Database : Mongodb
 1. [Set up the Web app](05-view-data.md)
 
 
-**Next**: [DB setup](01-Mongodb.md)
+**Next**: [Install Mongodb](01-Mongodb.md)
