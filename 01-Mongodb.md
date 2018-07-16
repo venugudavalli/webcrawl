@@ -26,7 +26,7 @@
 	
 	sudo service mongodb stop
 	
-3.Start using mongodb with mongo shell
+3. Start using mongodb with mongo shell
 	
 	mongo --host 127.0.0.1:27017
 	
