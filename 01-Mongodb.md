@@ -29,7 +29,7 @@
 	
 	mongo --host 127.0.0.1:27017
 	
-  ctrl+C to quit mongo shell
+  	ctrl+C to quit mongo shell
 	
 **Uninstall Mongodb in Ubuntu linux**
 
@@ -44,6 +44,7 @@
 3. Remove Data Dierctories
 
 	sudo rm -r /var/log/mongodb
+	
 	sudo rm -r /var/lib/mongodb
 	
 **Next [Set up the Python Environment](02-Environment.md)
