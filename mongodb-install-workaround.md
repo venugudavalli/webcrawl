@@ -1,10 +1,13 @@
-** Steps to Install mongodb on Ubuntu for free 
+**Steps to Install mongodb on Ubuntu for free** 
+
 [article on techrepublic.com](https://www.techrepublic.com/article/how-to-install-mongodb-community-edition-on-ubuntu-linux/)
 
-  There are different versions of MongoDB; the version I'll focus on is the community edition. 
-	You can easily install MongoDB on Ubuntu from the standard repositories, but that version tends to be out of date. Because of that, I'll show how to install the version from the official MongoDB repositories. 
+  	There are different versions of MongoDB; but let us focus on the community edition. 
+  
+	You can easily install MongoDB on Ubuntu from the standard repositories, but that version tends to be out of date. Because of that, we will install the version from the official MongoDB repositories. 
 	
 1. This repository will install:
+
   	- mongodb-org (this is the meta package that will install everything below)
   	- mongodb-org-server (the mongod daemon)
  	- mongodb-org-mongos (the mongos daemon)
@@ -19,10 +22,13 @@ Open a terminal window.
 1. Issue the command 
 	- sudo apt-key adv —keyserver hkp://keyserver.ubuntu.com:80 —recv EA312927.
 			
-2. Issue the command 
+2. Issue the command
+
 	- sudo touch /etc/apt/sources.list.d/mongodb-org.list.
 			
-3. Issue the command sudo nano /etc/apt-sources.list.d/mongodb-org.list.
+3. Issue the command 
+
+	- sudo nano /etc/apt-sources.list.d/mongodb-org.list.
 	
 Copy and paste one of the following lines from below (depending upon your release) into the open file.
 		
