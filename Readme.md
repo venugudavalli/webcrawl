@@ -1,43 +1,22 @@
-.ipynb_checkpoints
++# Building Scraper Service
++
++ By Venu GUdavalli
 
-*/.ipynb_checkpoints/*
+**Development Platform**
 
-__pycache__/
+Anaconda 3
+Python: 3.6
+  Packages:
+          
+Database : Mongodb 
 
-*.py[cdo]
+## Steps
 
-_minted*
+1. [Install Mongodb](01-Mongodb.md)
+1. [Set up the database](02-Environment.md)
+1. [Set up the scraper](03-Build scraper.md)
+1. [Perform data analysis](04-Run Scraper.md)
+1. [Set up the Web app](05-view-data.md)
 
-*.aux
 
-*.cb
-
-*.cb2
-
-*.fdb_latexmk
-
-*.fls
-
-*.fmt
-
-*.fot
-
-*.lof
-
-*.log
-
-*.lot
-
-*.nav
-
-*.out
-
-*.pre
-
-*.pyg
-
-*.snm
-
-*.toc
-
-*.vrb
+**Next**: [DB setup](01-Mongodb.md)
