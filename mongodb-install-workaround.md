@@ -2,9 +2,9 @@
 
 [article on techrepublic.com](https://www.techrepublic.com/article/how-to-install-mongodb-community-edition-on-ubuntu-linux/)
 
-  	There are different versions of MongoDB; but let us focus on the community edition. 
+  There are different versions of MongoDB; but let us focus on the community edition. 
   
-	You can easily install MongoDB on Ubuntu from the standard repositories, but that version tends to be out of date. Because of that, we will install the version from the official MongoDB repositories. 
+  You can easily install MongoDB on Ubuntu from the standard repositories, but that version tends to be out of date. Because of that, we will install the version from the official MongoDB repositories. 
 	
 1. This repository will install:
 
