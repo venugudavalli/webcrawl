@@ -6,12 +6,19 @@ By Venu GUdavalli (<venugudavalli@hotmail.com>)
 **Development Platform**
 
 Anaconda 3
++
 OS: Lynux 16.04 
++
 Python: 3.6
++
   Special Packages: 
++
     - beautifulsoup4
++
     - scrapy
++
     - pip:
++
       - pymongo
           
 Database : Mongodb 
