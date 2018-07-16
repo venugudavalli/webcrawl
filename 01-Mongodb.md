@@ -8,6 +8,7 @@
 1. 	echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list
 1. Reload local package database.
 	sudo apt-get update
+	
 1. Install the MongoDB packages
 	sudo apt-get install -y mongodb-org
 	
