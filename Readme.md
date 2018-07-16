@@ -16,7 +16,7 @@ Python: 3.6
 	- beautifulsoup4
     	- scrapy
     	- pip:
-      		- pymongo
+      	- pymongo
           
 Database : Mongodb 
 
