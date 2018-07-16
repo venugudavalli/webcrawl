@@ -2,7 +2,7 @@ import json
 import scrapy
 
 from http import HTTPStatus
-from pydocumentdb import document_client
+
 import logging
 import pymongo
 
@@ -22,37 +22,6 @@ def get_or_create_collection(client, db, coll_name):
         return client.CreateCollection(db['_self'], {'id': coll_name})
 
 
-class CosmosDBSaverPipeline(object):
-    default_db_name = 'ted'
-    default_coll_name = 'talks'
-
-    def __init__(self, endpoint, key, db_name, coll_name):
-        self.endpoint = endpoint
-        self.key = key
-        self.db_name = db_name
-        self.coll_name = coll_name
-
-    @classmethod
-    def from_crawler(cls, crawler):
-        return cls(
-            endpoint=crawler.settings.get('COSMOSDB_ENDPOINT'),
-            key=crawler.settings.get('COSMOSDB_KEY'),
-            db_name=crawler.settings.get('COSMOSDB_DB_NAME',
-                                         cls.default_db_name),
-            coll_name=crawler.settings.get('COSMOSDB_COLLECTION_NAME',
-                                           cls.default_coll_name)
-        )
-
-    def open_spider(self, spider):
-        self.client = document_client.DocumentClient(self.endpoint,
-                                                     {'masterKey': self.key})
-        self.db = get_or_create_database(self.client, self.db_name)
-        self.collection = get_or_create_collection(self.client, self.db,
-                                                   self.coll_name)
-
-    def process_item(self, item, spider):
-        self.client.UpsertDocument(self.collection['_self'], item)
-        return item
     
 class MongoPipeline(object):
     #default_db_name = 'ted'
