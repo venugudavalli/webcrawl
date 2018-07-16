@@ -41,7 +41,7 @@ Copy and paste one of the following lines from below (depending upon your releas
 
 Find the workaround after the standard installation steps below.
 
-**Installing MongoDB
+### Installing MongoDB
 
 1. Open a terminal window.
 2. Update apt with the command 
