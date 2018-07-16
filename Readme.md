@@ -13,10 +13,10 @@ Python: 3.6
 
   Special Packages: 
 	
-	- beautifulsoup4
-    	- scrapy
-    	- pip:
-      	- pymongo
+- beautifulsoup4
+- scrapy
+- pip:
+	- pymongo
           
 Database : Mongodb 
 
