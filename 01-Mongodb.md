@@ -20,16 +20,16 @@
 	
 1. Check the mongodb installation version
 
-	$ mongod --version
-	db version v4.0.0
-	git version: 3b07af3d4f471ae89e8186d33bbb1d5259597d51
-	OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
-	allocator: tcmalloc
-	modules: none
-	build environment:
-    		distmod: ubuntu1604
-    	distarch: x86_64
-    	target_arch: x86_64
+		$ mongod --version	
+		db version v4.0.0
+		git version: 3b07af3d4f471ae89e8186d33bbb1d5259597d51
+		OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+		allocator: tcmalloc
+		modules: none
+		build environment:
+	    		distmod: ubuntu1604
+	    	distarch: x86_64
+	    	target_arch: x86_64
 	
 1. Start Mongodb 
 	
