@@ -35,7 +35,7 @@
 	
 	sudo service mongodb start
 	
-	**If you are using Ubuntu 16.04, you may run into an issue where you see the error mongodb: unrecognized service due to the switch from upstart to systemd. To get around this, you have to follow these steps. [follow the link here](https://www.techrepublic.com/article/how-to-install-mongodb-community-edition-on-ubuntu-linux/)
+	**If you are using Ubuntu 16.04, you may run into an issue where you see the <font color="red">error mongodb: unrecognized service</font> due to the switch from upstart to systemd. To get around this, you have to follow these steps.** [follow the link here](https://www.techrepublic.com/article/how-to-install-mongodb-community-edition-on-ubuntu-linux/)
 	
 or 
 [go to workaround](mongodb-install-workaround.md)
