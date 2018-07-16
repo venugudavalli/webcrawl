@@ -1,6 +1,6 @@
 # Building Scraper Service
 
-By Venu GUdavalli (<venugudavalli@hotmail.com>)
+By Venu Gudavalli (<venugudavalli@hotmail.com>)
 
 
 **Development Platform**
