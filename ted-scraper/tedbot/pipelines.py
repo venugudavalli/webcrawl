@@ -20,8 +20,6 @@ def get_or_create_collection(client, db, coll_name):
                     if x['id'] == coll_name)
     except StopIteration:
         return client.CreateCollection(db['_self'], {'id': coll_name})
-
-
     
 class MongoPipeline(object):
     #default_db_name = 'ted'
@@ -45,20 +43,16 @@ class MongoPipeline(object):
         self.client = pymongo.MongoClient(self.mongo_uri)
         self.db = self.client[self.mongo_db]
         
-        #self.client = document_client.DocumentClient(self.endpoint,
-        #                                            {'masterKey': self.key})
-        #self.db = get_or_create_database(self.client, self.db_name)
-        #self.collection = get_or_create_collection(self.client, self.db,
-        #                                           self.coll_name)
+        
     def close_spider(self, spider):
         ## clean up when spider is closed
         self.client.close()
         
     def process_item(self, item, spider):
-        #self.client.UpsertDocument(self.collection['_self'], item)
+       
         ## how to handle each post
         self.db[self.collection_name].insert_one(dict(item))
-        logging.debug("Post added to MongoDB")
+        #logging.debug("Post added to MongoDB")
         return item
 
 class TimingsDownloaderPipeline(object):
