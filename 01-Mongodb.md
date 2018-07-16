@@ -68,4 +68,4 @@ or
 	
 	sudo rm -r /var/lib/mongodb
 	
-**Next [Set up the Python Environment](02-Environment.md)
+**Next:** [Set up the Python Environment](02-Environment.md)
