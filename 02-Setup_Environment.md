@@ -1,4 +1,4 @@
-**Previous:**[Install Mongodb](01-Mongodb.md) 						**Next**: [Setup Scraper](03-setup_scraper.md)
+**<---**[Install Mongodb](01-Mongodb.md) 						
 ## 2. Setup Python Environment
 
 ### Setting up folder Structure
