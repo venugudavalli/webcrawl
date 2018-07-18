@@ -1,4 +1,4 @@
-**Main**:[Home](readme.md)|| **Next**: [Set up the environment](02-Setup_Environment.md)
+**Main**:[Home](Readme.md)|| **Next**: [Set up the environment](02-Setup_Environment.md)
 ## Installing Local Mongodb (community addition)
 
 1. Installation Steps [for latest updates](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
@@ -69,4 +69,4 @@ or
 	
 	sudo rm -r /var/lib/mongodb
 	
-**Main**:[Home](readme.md)|| **Next:** [Set up the Python Environment](02-Setup_Environment.md)
+**Main**:[Home](Readme.md)|| **Next:** [Set up the Python Environment](02-Setup_Environment.md)
