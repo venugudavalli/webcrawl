@@ -24,7 +24,7 @@ Database : Mongodb
 
 1. [Install Mongodb](01-Mongodb.md)
 1. [Set up the environment](02-Setup_Environment.md)
-1. [setup the scraper](03-setup_scraper.md)
+1. [Setup the scraper](03-setup_scraper.md)
 1. [Run scraper](04-Run_Scraper.md)
 1. [Verify the Data](05-view-data.md)
 
