@@ -1,18 +1,22 @@
 **Previous**: [Setup the environment](02-Setup_Environment.md) || **Next**: [Run Scraper](04-Run_Scraper.md)
+
 ## 3. Setup Scraper
 
 ### ted-scraper/scrapy.cfg : configuration file
+
 This will provide default scraper bot settings for scraper. 
 Provides Project name for deployment.
+
 [settings]
+
 default = tedbot.settings
 
 [deploy]
+
 project = tedbot
 
 **tedbot/pipelines.py**
 
-pipelines.py file 
 this file will define data pipeline classes and methods
   1. Required to handle request/response/and parsing web data
   2. Required to connect and write data into mongodb 
