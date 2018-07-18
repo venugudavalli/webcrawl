@@ -52,7 +52,7 @@ MONGO_URI = 'mongodb://localhost:27017'
 
 MONGO_DATABASE = 'ted'
 
-**ted-scraper/tedbot/spiders/ted.py Spyder class implementation
+**ted-scraper/tedbot/spiders/ted.py Spyder class implementation**
 
 **ted-scraper/tedbot/spiders/'__init__.py' :blank init file**
 
