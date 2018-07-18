@@ -29,15 +29,18 @@ This file provides settings for the project level that allows you to customize t
   - pipelines and 
   - spiders themselves.
   
-### BOT_NAME = '<name of bot>' must be unique the project
+**BOT_NAME = '<name of bot>'** must be unique the project
 
-### SPIDER_MODULES
+**SPIDER_MODULES**
+
 A list of modules where Scrapy will look for spiders.
+
 SPIDER_MODULES = ['tedbot.spiders'] 
 
 AUTOTHROTTLE_ENABLED = True
 
 ### ITEM_PIPELINES
+
 Default: {}
 
 A dict containing the item pipelines to use, and their orders. Order values are arbitrary, but it is customary to define them 
