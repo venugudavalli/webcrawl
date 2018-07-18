@@ -1,4 +1,4 @@
-**Previous**: [Set up the environment](02-Setup_Environment.md) || **Next**: [Run Scraper](04-Run_scraper.md)
+**Previous**: [Setup the environment](02-Setup_Environment.md) || **Next**: [Run Scraper](04-Run_scraper.md)
 ## 3. Setup Scraper
 ### configuration file : scrapy.cfg
 This will provide default scraper bot settings for scraper. 
@@ -41,4 +41,4 @@ ITEM_PIPELINES = {
 MONGO_URI = 'mongodb://localhost:27017'
 MONGO_DATABASE = 'ted'
 
-**Previous**: [Set up the environment](02-Setup_Environment.md) || **Next**: [Run Scraper](04-Run_scraper.md)
+**Previous**: [Setup the environment](02-Setup_Environment.md) || **Next**: [Run Scraper](04-Run_scraper.md)
