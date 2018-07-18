@@ -10,13 +10,14 @@ default = tedbot.settings
 [deploy]
 project = tedbot
 
-### tedbot/pipelines.py
+**tedbot/pipelines.py**
+
 pipelines.py file 
 this file will define data pipeline classes and methods
   1. Required to handle request/response/and parsing web data
   2. Required to connect and write data into mongodb 
   
-**ted-scraper/tedbot/settings.py
+**ted-scraper/tedbot/settings.py**
 
 This file provides settings for the project level that allows you to customize the behaviour of all Scrapy components, 
   - including the core, 
@@ -45,12 +46,14 @@ ITEM_PIPELINES = {
     'tedbot.pipelines.MongoPipeline': 200,
 }
 
-### Database connection settings
+**Database connection settings**
+
 MONGO_URI = 'mongodb://localhost:27017'
 
 MONGO_DATABASE = 'ted'
 
 **ted-scraper/tedbot/spiders/ted.py Spyder class implementation
 
-**ted-scraper/tedbot/spiders/__init__.py :blank init file
+**ted-scraper/tedbot/spiders/'__init__.py' :blank init file**
+
 **Previous**: [Setup the environment](02-Setup_Environment.md) || **Next**: [Run Scraper](04-Run_Scraper.md)
