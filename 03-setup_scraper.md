@@ -39,6 +39,7 @@ ITEM_PIPELINES = {
 
 ### Database connection settings
 MONGO_URI = 'mongodb://localhost:27017'
+
 MONGO_DATABASE = 'ted'
 
 **Previous**: [Setup the environment](02-Setup_Environment.md) || **Next**: [Run Scraper](04-Run_Scraper.md)
