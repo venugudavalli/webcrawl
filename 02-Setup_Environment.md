@@ -1,4 +1,6 @@
+**Previous:**[Install Mongodb](01-Mongodb.md)                                   **Next**: [Setup Scraper](03-setup_scraper.md)
 ## 2. Setup Python Environment
+
 ### Setting up folder Structure
 0 level or root folder ted-scraper
 	- level 1 tedbot
@@ -38,6 +40,4 @@ dependencies:
 	Active environment is prefixed with * in the list
 	
 
-
-
-[]()
+**Next**: [Setup Scraper](03-setup_scraper.md)
